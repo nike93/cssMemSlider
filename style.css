@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+h1 {
+    text-align: right;
+    margin-right: 20%;
+    font-size: 1.875rem;
+    color: rgb(36, 36, 36);
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(94, 92, 92);
+}
+.year{
+    font-size: 1.5rem;
+    color: rgb(36, 36, 36);
+}
+.rs-logo {
+    width: 8rem;
+}
