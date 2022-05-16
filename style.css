@@ -147,9 +147,15 @@ label:nth-of-type(6):hover .point {
     border: 2px solid rgb(240, 240, 145);
 }
 
-.point:active {
+label:nth-of-type(1):active .point,
+label:nth-of-type(2):active .point,
+label:nth-of-type(3):active .point,
+label:nth-of-type(4):active .point,
+label:nth-of-type(5):active .point,
+label:nth-of-type(6):active .point {
     opacity: 0.5;
 }
+
 /*анимация*/
 
 
